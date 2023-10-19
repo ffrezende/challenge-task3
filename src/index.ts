@@ -1,5 +1,5 @@
-import { IArtifactDiscovery } from './interfaces';
-import { mockDiscoveries } from './mocks';
+import { IArtifactDiscovery } from './common/interfaces';
+import { mockDiscoveries } from './common/mocks';
 
 interface IDiscoveriesByDateAndDigSite {
   [date: string]: { [digSite: number]: Array<IArtifactDiscovery> };
